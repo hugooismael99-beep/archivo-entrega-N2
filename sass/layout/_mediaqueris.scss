@@ -1,0 +1,30 @@
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
+
+      /* medias queries */
+
+      /* MQ menu Hambur */
+
+@media screen and (max-width: 700px){
+    .div-hambur1 {
+        display: block;
+    }
+    .nav-principal {
+        display: none;
+    }
+}
+
+      /* MQ footer */
+
+ @media screen and (max-width: 700px) {
+    .footer-class li a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: small;
+    
+    }
+
+}
+   
+

@@ -1,339 +1,331 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing:border-box;
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
-
 
 body {
-    background-color: #f0f0f0;
-}
-    /*diseño del header*/
-
-.nav-principal{
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    justify-content: center;
-    list-style: none;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-
+  background-color: #f0f0f0;
 }
 
-ul li a{
-  
-    margin: 3em;
-    color: rgb(255, 255, 255);
-    font-size:x-large;
-    text-decoration: none;
+/* diseño del header */
+.nav-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
 }
 
-ul li a:hover{
-    padding: 1px;
-    color:rgb(255, 180, 110);
+header ul li a {
+  margin: 3em;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  text-decoration: none;
 }
 
-
-    
-
-header{
-    background-image:url(../img/portada.jpg);
-    background-attachment: scroll;
-    padding: 20em 0 0 0;
-    background-size: cover;
-    background-position: center center;
-    text-align: center;
-
-}
-.titulo-primario{
-    display:flex;
-    flex-direction: row;
-    align-items:center;
-    justify-content: center;
-    position: absolute;
-    top: 15%;
-    width: 100%;
-    font-size: x-large;
-    color: rgb(255, 255, 255);
-}
-              /* diseño del main*/
-
-main{
-    margin: 4% 5%;
-    box-shadow: 5px 5px 20px rgb(90, 90, 90);
-    border-radius: 10px;
-    background-color:#ffffff;
-    
-    
-}
-              /* diseño del div-1*/
-.d1{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    box-sizing: border-box;
-}
-.i1{
-    
-    
-    width: 30%;
-    height: auto;
-}
-.t1{
-    width: 40%;
-}
-    
-    
-    
-            /*diseño de div-2*/
-main h2{
-    margin-top: 6%;
-    margin-bottom: 2%; 
-}
-.imagen-2{
-      width: 30%;
-    height: 5%;
-}
-main ul li{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 5%;
-
-}
-.div-trabajos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: medium;
+header ul li a:hover {
+  padding: 1px;
+  color: rgb(255, 180, 110);
 }
 
-.div-trabajos a:hover{
-   
-    color:rgb(255, 180, 110);
-}
-    
-             /*pagina desing*/
-
-.main-principal{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-}
-.textos-1{
-    text-align: justify;
-    font-size: x-large;
-    width: 80%;
-}
-.textos-1A{
-    text-align: justify;
-    font-size: x-large;
-    width: 80%;
-    margin-left: 9%;
-}
-.textos-de-lista{
-    text-align:left;
-    font-size: medium;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 1%;
-    list-style-type: none;
-
-
-}
-.texto-final{
-    text-align:left;
-    font-size: medium;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 10%;
-    margin-left: 1%;
-}
-.imagenes-3{
-    box-sizing: border-box;
-    height: auto;
-    max-width: 100%;
-    
+header {
+  background-image: url(../img/portada.jpg);
+  background-attachment: scroll;
+  padding: 20em 0 0 0;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
 }
 
-            /* pagina de interior*/
-
-.textos-1B{
-    margin: 3%;
+header .titulo-primario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  font-size: x-large;
+  color: rgb(255, 255, 255);
 }
 
-           /* pagina multimedia */
-
-.div-grid{
-    box-sizing: border-box;
-    padding: 4px;
-    gap: 4px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px;
-}
-.imagenes-grid{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
-}
-.titulo-mul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+/* diseño del main */
+main {
+  margin: 4% 5%;
+  box-shadow: 5px 5px 20px rgb(90, 90, 90);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
 }
 
-             /* Diseño del footer */
-footer{
-    background-color:#2b252c ;
+/* div-1 */
+.d1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
 }
+
+.i1 {
+  width: 30%;
+  height: auto;
+}
+
+.t1 {
+  width: 40%;
+}
+
+/* Div-2*/
+main h2 {
+  margin-top: 6%;
+  margin-bottom: 2%;
+}
+
+.imagen-2 {
+  width: 30%;
+  height: 5%;
+}
+
+main ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.div-trabajos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: medium;
+}
+
+.div-trabajos a {
+  text-decoration: none;
+  color: rgb(167, 101, 39);
+}
+
+.div-trabajos a:hover {
+  color: rgb(255, 180, 110);
+}
+
+/* Pagina desing */
+.main-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textos-1 {
+  text-align: justify;
+  font-size: x-large;
+  width: 80%;
+}
+
+.textos-1A {
+  text-align: justify;
+  font-size: x-large;
+  width: 80%;
+  margin-left: 9%;
+}
+
+.textos-de-lista {
+  text-align: left;
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-left: 1%;
+  list-style-type: none;
+}
+
+.texto-final {
+  text-align: left;
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-top: 10%;
+  margin-left: 1%;
+}
+
+.imagenes-3 {
+  box-sizing: border-box;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Pages Interior */
+.textos-1B {
+  margin: 3%;
+}
+
+/* Pages Multimedia */
+.div-grid {
+  box-sizing: border-box;
+  padding: 4px;
+  gap: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+}
+
+.imagenes-grid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.titulo-mul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Diseño footer */
+footer {
+  background-color: rgb(33, 37, 41);
+}
+
 .footer-h2 {
-    display: flex;
-    justify-content: center;
-    padding: 1%;
-    color: #ffffff;
-    
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  color: #ffffff;
 }
 
-footer ul li {
-    margin-left: 24%;
-    
+.footer-class a {
+  display: inline;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: large;
 }
-@media screen and (max-width: 700px) {
-    .footer-class li a {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: small;
-        margin-left: -35%;
-    }
 
+.footer-class a:hover {
+  color: rgb(255, 180, 110);
 }
-    
 
+footer ul {
+  text-align: center;
+}
+footer li a {
+  margin: 2%;
+}
 
-
-    
-
-    
-
-
-            /* diseño exterior*/
-
-
+/* Pages Exterior */
 #grid-exterior {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px;
-    padding: 4px;
-    gap: 4px;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+  padding: 4px;
+  gap: 4px;
 }
 
-.imagen-ext1{
-   
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-
-}
-          /* diseño Nuetros Proyectos*/
-
-.imagen-ext{
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.imagen-ext1 {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-.div-3{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 4%;
-    
-    
-}
-.imagen-div{
-    width:30%;
-    
-    
-     
+/* Pages Nuestros Proyectos */
+.imagen-ext {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-                    /*pagina contactos*/
-
-.form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-
+.div-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4%;
 }
-main form{
-    width: 100%;
-    height: 100%;
-    margin: 30px;
-    
+
+.imagen-div {
+  width: 30%;
 }
+
+/* Nuestros Contactos */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main form {
+  width: 100%;
+  height: 100%;
+  margin: 30px;
+}
+
 main input {
-    width: 40%;
-    height: 35px;
-    margin: 10px;
+  width: 40%;
+  height: 35px;
+  margin: 10px;
 }
 
-.input-tex{
-    height: 100px;
+.input-tex {
+  height: 100px;
 }
 
 .button {
-    border: none;
-    background-color: rgb(255, 180, 110);
-
+  border: none;
+  background-color: rgb(255, 180, 110);
 }
+
 .button:hover {
-    color: #ffffff;
-
+  color: #ffffff;
 }
-             /*diseño menu hambur*/
 
+/* Diseño Menu Hambur */
 .div-hambur1 {
-    display: none;
-} 
-
-
-
-@media screen and (max-width: 700px){
-    .div-hambur1 {
-        display: block;
-    }
-    .nav-principal {
-        display: none;
-    }
+  display: none;
 }
-    
+
 .li-hambur a {
-    margin: 3em;
-    color: rgb(255, 255, 255);
-    font-size:medium;
-    text-decoration: none;
-    
-
+  margin: 3em;
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  text-decoration: none;
 }
+
 .li-hambur {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.li-hambur :hover {
+  color: rgb(255, 180, 110);
 }
 
 #div-id {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
-#nav-hambur {
-    color: rgb(33, 37, 4;
+/* medias queries */
+/* MQ menu Hambur */
+@media screen and (max-width: 700px) {
+  .div-hambur1 {
+    display: block;
+  }
+  .nav-principal {
+    display: none;
+  }
 }
+/* MQ footer */
+@media screen and (max-width: 700px) {
+  .footer-class li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
